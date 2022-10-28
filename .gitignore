@@ -1,0 +1,7 @@
+.vs/
+packages/
+*.user
+SampleTesting.Feature.Components.Tests/bin/
+SampleTesting.Feature.Components.Tests/obj/
+SampleTesting.Feature.Components/bin/
+SampleTesting.Feature.Components/obj/

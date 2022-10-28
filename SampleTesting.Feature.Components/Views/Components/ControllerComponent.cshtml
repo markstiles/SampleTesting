@@ -1,0 +1,15 @@
+﻿@using Sitecore.Globalization
+@model SampleTesting.Feature.Components.Models.ControllerModel
+
+@if (Model == null || Model.Datasource == null)
+{
+    return;
+}
+<div class="simple-view-model">
+    <h1>
+        Simple View Model
+    </h1>
+    <div>
+        @Model.Title
+    </div>
+</div>

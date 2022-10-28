@@ -1,0 +1,18 @@
+﻿@using Sitecore.Globalization
+@model SampleTesting.Feature.Components.Models.SimpleViewModel
+
+@if (Model == null || Model.Datasource == null)
+{
+    return;
+}
+<div class="simple-view-model">
+    <h1>
+        Simple View Model
+    </h1>
+    <div>
+        @Html.Glass().Editable(Model.Datasource, x => x.Title)
+    </div>
+    <div>
+        @Html.Glass().Editable(Model.Datasource, x => x.Description)
+    </div>
+</div>
